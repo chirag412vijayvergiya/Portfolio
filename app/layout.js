@@ -1,9 +1,10 @@
 import { Josefin_Sans } from "next/font/google";
 import Header from "./_components/Header";
 import "@/app/_styles/globals.css";
+import Aboutme from "./_components/Aboutme";
 
 const josefin = Josefin_Sans({
-  subsets: ["latin"],
+  subsets: ["latin-ext"],
   display: "swap",
 });
 
@@ -27,12 +28,15 @@ export default function RootLayout({ children }) {
           linear-gradient(to right, #01100F, #01100F)
         `,
         }}
-        className={`${josefin.className} antialiased text-primary-100 min-h-screen flex flex-col`}
+        className={`${josefin.className}  antialiased text-primary-100 min-h-screen flex flex-col`}
       >
         <Header />
-        <div className="flex-1 px-8 py-12 grid max-h-screen">
+        <div className="flex-1  grid min-h-screen">
           <main className="max-w-7xl mx-auto w-full">{children}</main>
+          <Aboutme />
         </div>
+
+        {/* <Aboutme /> */}
       </body>
     </html>
   );

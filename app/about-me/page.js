@@ -1,11 +1,7 @@
 import Timeline from "../_components/Timeline";
 
 function page() {
-  return (
-    <div>
-      <Timeline />
-    </div>
-  );
+  return <Timeline />;
 }
 
 export default page;

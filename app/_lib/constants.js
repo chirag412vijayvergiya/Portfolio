@@ -1,3 +1,21 @@
+import js from "../../public/Tools/js-svgrepo-com.svg";
+import mongodb from "../../public/Tools/mongodb-svgrepo-com.svg";
+import express from "../../public/Tools/express-svgrepo-com.svg";
+import git from "../../public/Tools/git-svgrepo-com.svg";
+import github from "../../public/Tools/github-svgrepo-com.svg";
+import html from "../../public/Tools/html-5-svgrepo-com.svg";
+import java from "../../public/Tools/java-svgrepo-com.svg";
+import mysql from "../../public/Tools/mysql-logo-svgrepo-com.svg";
+import node from "../../public/Tools/node-svgrepo-com.svg";
+import react from "../../public/Tools/react-svgrepo-com.svg";
+import tailwind from "../../public/Tools/tailwind-svgrepo-com.svg";
+import postman from "../../public/Tools/postman-icon-svgrepo-com.svg";
+import next from "../../public/Tools/next.svg";
+import cpp from "../../public/Tools/cpp.svg";
+import leetcode from "../../public/Tools/leetcode.svg";
+import linkedin from "../../public/Tools/linkedin.svg";
+import gfg from "../../public/Tools/gfg.svg";
+
 export const navLinks = [
   { to: "/", label: "Home" },
   { to: "projects", label: "Projects" },
@@ -29,5 +47,137 @@ export const timelineEvents = [
     Title: "Completed 12th std.",
     description:
       "Completed 12th std. from Saraswati Vidya Vihar Sr. Sec. School, with 95.20% score in the Science stream.",
+  },
+];
+
+export const projects = [
+  {
+    title: "Jeevan Hospital",
+    description:
+      "Jeevan is a website (Online Hospital Management System), where we have two types of users: patients and doctors. Users can book appointments, patients can check lab results, and users can update their profiles. Additionally, the system supports creating, updating, getting, and deleting reviews, as well as real-time chat between patients and doctors.",
+    githubLink: "https://github.com/chirag412vijayvergiya/Health",
+    demoLink: "https://jeevan-frontend.vercel.app/",
+    projectImage: "/Jeevan.png",
+    skills: [
+      "React",
+      "MongoDB",
+      "Express",
+      "Node.js",
+      "Tailwind CSS",
+      "Passport.js",
+      "Cloudinary",
+      "Stripe",
+      "websockets",
+      "postman",
+      "Mailtrap",
+      "Vercel",
+      "Render",
+    ],
+  },
+  {
+    title: "Trip Note",
+    description:
+      "Trip Note is a web application that enables users to create location-based notes on a map, ideal for capturing travel memories and essential details. With intuitive map interactions, users can click on any spot to store notes, making it easy to revisit and relive their travel experiences. It's designed to enhance personal documentation and provide a seamless way to curate memorable journeys.",
+    githubLink: "https://github.com/chirag412vijayvergiya/TRIPNOTE",
+    projectImage: "/TripNote.png",
+    skills: ["React", "Leaflet", "JSON file-storage"],
+  },
+  {
+    title: "Portfolio",
+    description:
+      "This is my personal portfolio website, where I showcase my projects, skills, and experiences. It's designed to provide an overview of my work and help visitors learn more about me. The site is built using Next.js, Tailwind CSS, and deployed on Vercel.",
+    githubLink: "https://github.com/chirag412vijayvergiya/Portfolio",
+    projectImage: "/portfolio.png",
+    skills: ["Next.js", "Tailwind CSS", "Vercel"],
+  },
+  {
+    title: "Natours",
+    description:
+      "Natours is a fictional tour booking website that offers a variety of outdoor adventures. Users can explore different tours, view details, and book their preferred options. The site features a modern design with a focus on user experience, making it easy to navigate and discover exciting travel opportunities.",
+    githubLink: "https://github.com/chirag412vijayvergiya/Natours",
+    projectImage: "/Natours.png",
+    skills: ["pug", "Node.js", "Express", "MongoDB", "Stripe", "Mailtrap"],
+  },
+];
+
+export const tools = [
+  {
+    src: js,
+    alt: "JavaScript",
+  },
+  {
+    src: mongodb,
+    alt: "MongoDB",
+  },
+  {
+    src: express,
+    alt: "Express",
+  },
+  {
+    src: git,
+    alt: "Git",
+  },
+  {
+    src: github,
+    alt: "GitHub",
+  },
+  {
+    src: html,
+    alt: "HTML",
+  },
+  {
+    src: java,
+    alt: "Java",
+  },
+  {
+    src: mysql,
+    alt: "MySQL",
+  },
+  {
+    src: node,
+    alt: "Node.js",
+  },
+  {
+    src: react,
+    alt: "React",
+  },
+  {
+    src: tailwind,
+    alt: "Tailwind CSS",
+  },
+  {
+    src: postman,
+    alt: "Postman",
+  },
+  {
+    src: next,
+    alt: "Next.js",
+  },
+  {
+    src: cpp,
+    alt: "C++",
+  },
+];
+
+export const socialLinks = [
+  {
+    icon: github,
+    link: "https://github.com/chirag412vijayvergiya/",
+    alt: "GitHub",
+  },
+  {
+    icon: linkedin,
+    link: "https://www.linkedin.com/in/chirag-vijayvergiya-548635245/",
+    alt: "LinkedIn",
+  },
+  {
+    icon: leetcode,
+    link: "https://leetcode.com/u/chiragvijayvergiya/",
+    alt: "Leetcode",
+  },
+  {
+    icon: gfg,
+    link: "https://www.geeksforgeeks.org/user/chiragvijayivnt/",
+    alt: "GeeksforGeeks",
   },
 ];

@@ -13,11 +13,11 @@ function ProjectCard({
   return (
     <div
       key={index}
-      className={`flex items-center p-6 rounded-xl shadow-lg gap-[10rem] ${
-        index % 2 === 0 ? "flex-row" : "flex-row-reverse"
+      className={`flex flex-col items-center p-6 rounded-xl shadow-lg gap-[2rem] md:gap-[10rem] ${
+        index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
       }`}
     >
-      <div className="relative flex-shrink-0 w-full md:w-2/5 mt-6 md:mt-0">
+      <div className="relative flex-shrink-0 w-full md:w-2/5 mt-2 md:mt-0">
         <Image
           src="/laptop.svg"
           alt="Laptop Graphic"
@@ -30,7 +30,6 @@ function ProjectCard({
             <Image
               src={projectImage}
               alt={title}
-              //   layout="fill"
               fill
               className="object-cover object-top"
               quality={100}

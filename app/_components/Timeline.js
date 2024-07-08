@@ -7,25 +7,26 @@ function Timeline() {
         About Me
       </h2>
       <div className="relative">
-        {/* Vertical Line */}
-        <div className="absolute left-1/2 transform -translate-x-1/2 w-0.5 bg-indigo-500 h-full"></div>
+        <div className="absolute md:left-1/2 left-0 transform -translate-x-1/2 w-0.5 bg-indigo-500 h-full"></div>
         {timelineEvents.map((event, index) => (
           <div
             key={index}
-            className={`mb-10 flex w-full ${
-              index % 2 === 0 ? "justify-start" : "justify-end"
+            className={`mb-10 flex w-full justify-start ${
+              index % 2 === 0 ? "md:justify-start" : "md:justify-end"
             }`}
           >
             <div
-              className={`relative w-1/2 ${
-                index % 2 === 0 ? "pr-6 text-right" : "pl-6 text-left"
+              className={`relative md:w-1/2 w-full pl-6 text-right${
+                index % 2 === 0
+                  ? "md:pr-6 md:text-right"
+                  : "md:pl-6 md:text-left"
               }`}
             >
               <div
-                className={`rounded-md shadow-sm shadow-indigo-700 pb-1${
+                className={`rounded-md shadow-sm shadow-indigo-700 pb-1 border-r pl-2${
                   index % 2 === 0
-                    ? "border-indigo-600  border-l pr-4"
-                    : "border-indigo-600 border-r pl-4 ml-6"
+                    ? "border-indigo-600  md:border-l md:pr-4"
+                    : "border-indigo-600 md:border-r md:pl-4 md:ml-6"
                 }`}
               >
                 <h3 className="text-white text-sm font-body-1 md:text-sm font-bold mb-1">
@@ -40,7 +41,7 @@ function Timeline() {
               </div>
             </div>
             {/* Circle */}
-            <span className="flex absolute left-1/2 transform -translate-x-1/2 justify-center items-center w-6 h-6 bg-slate-900 border-2 border-indigo-500 rounded-full">
+            <span className="flex absolute md:left-1/2 left-0 transform -translate-x-1/2 justify-center items-center w-6 h-6 bg-slate-900 border-2 border-indigo-500 rounded-full">
               <div className="w-3 h-3 bg-indigo-600 rounded-full"></div>
             </span>
           </div>

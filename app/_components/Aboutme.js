@@ -57,7 +57,7 @@ function Aboutme() {
           </div>
         </div>
       </div>
-      <div className="text-center text-base text-accent-400">
+      <div className="text-center text-base text-accent-400 mx-4 md:mx-0">
         Copyright &#169; 2024 || Chirag Vijayvergiya All Right Reserved.
       </div>
     </footer>

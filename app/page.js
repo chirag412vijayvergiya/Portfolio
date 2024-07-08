@@ -5,7 +5,7 @@ import CustomTypewriter from "./_components/CustomeTypewriter";
 
 export default function Home() {
   return (
-    <main className="mt-14 mx-auto px-8 pt-12 pb-0 mb-[-126px] min-h-screen md:px-16">
+    <main className="md:mt-14 mx-auto px-8 pt-12 pb-0 md:mb-[-126px] min-h-screen md:px-16">
       <div className="container mx-auto flex flex-col py-12">
         <div className="w-full flex flex-col lg:flex-row lg:items-center justify-between">
           <div className="flex flex-col justify-center text-center lg:text-left lg:w-1/2">

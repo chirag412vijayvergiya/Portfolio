@@ -9,7 +9,6 @@ const josefin = Josefin_Sans({
 });
 
 export const metadata = {
-  // title: "The Wild Oasis",
   title: {
     template: "%s | Portfolio",
     default: "Welcome | Chirag Vijayvergiya",
@@ -32,7 +31,9 @@ export default function RootLayout({ children }) {
       >
         <Header />
         <div className="flex-1  grid min-h-screen">
-          <main className="max-w-7xl mx-auto w-full">{children}</main>
+          <main className="max-w-7xl mx-auto w-full border-b border-primary-900">
+            {children}
+          </main>
           <Aboutme />
         </div>
 

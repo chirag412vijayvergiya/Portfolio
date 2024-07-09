@@ -24,7 +24,7 @@ export default function Home() {
               them with my skills.
             </p>
             <div className="flex flex-col items-center lg:flex-row">
-              <Link href="https://drive.google.com/file/d/1v_zoBv3zjJX54Rn3ZgKFjjHhM_jkoR2u/view">
+              <Link href="https://drive.google.com/file/d/1MBFsD5bxDc-NZvlr_0AatNBRVAUD0sSA/view?usp=sharing">
                 <Button label="My Resume" />
               </Link>
             </div>

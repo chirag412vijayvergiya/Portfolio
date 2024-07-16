@@ -27,6 +27,7 @@ export default function Home() {
               <Link href="https://drive.google.com/file/d/129nqrcQiTUOeZyrRzIrK-UXkrcA0F3s4/view?usp=sharing">
                 <Button label="My Resume" />
               </Link>
+              {/* x */}
             </div>
           </div>
           <div className="flex justify-center lg:w-1/2 lg:justify-end mt-8 lg:mt-0">

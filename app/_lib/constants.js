@@ -25,12 +25,6 @@ export const navLinks = [
 
 export const timelineEvents = [
   {
-    date: "2022 - Present",
-    Title: "Student at MPSTME, Shirpur",
-    description:
-      "I am currently pursuing a Bachelor of Technology in Computer Engineering at MPSTME, Shirpur. I have a CGPA of 3.64 out of 4 and am actively involved in extracurricular activities such as Google Developer Student Clubs (GDSC).",
-  },
-  {
     date: "2023 - 2024",
     Title: "Technical Lead at GDSC MPSTME Shirpur",
     description:
@@ -41,6 +35,12 @@ export const timelineEvents = [
     Title: "Subcore Member at GDSC MPSTME Shirpur",
     description:
       "In the 2022-23 session, I served as a subcore member, contributing to various projects and initiatives. This role helped me develop essential skills and gain valuable experience, setting the foundation for my current position as Technical Lead.",
+  },
+  {
+    date: "2022 - Present",
+    Title: "Student at MPSTME, Shirpur",
+    description:
+      "I am currently pursuing a Bachelor of Technology in Computer Engineering at MPSTME, Shirpur. I have a CGPA of 3.64 out of 4 and am actively involved in extracurricular activities such as Google Developer Student Clubs (GDSC).",
   },
   {
     date: "2021",

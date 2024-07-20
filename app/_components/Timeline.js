@@ -12,7 +12,7 @@ function Timeline() {
           <div
             key={index}
             className={`mb-10 flex w-full justify-start ${
-              index % 2 === 0 ? "md:justify-start" : "md:justify-end"
+              index % 2 === 0 ? "md:justify-start " : "md:justify-end"
             }`}
           >
             <div
@@ -23,10 +23,10 @@ function Timeline() {
               }`}
             >
               <div
-                className={`rounded-md shadow-sm shadow-indigo-700 pb-1 border-r pl-2${
+                className={`rounded-md shadow-sm shadow-indigo-700 pb-1 pl-2${
                   index % 2 === 0
-                    ? "border-indigo-600  md:border-l md:pr-4"
-                    : "border-indigo-600 md:border-r md:pl-4 md:ml-6"
+                    ? "border-indigo-600 md:border-l md:pr-4 md:mr-6 md:mt-2 "
+                    : "border-indigo-600 md:border-r md:pl-4 md:ml-2"
                 }`}
               >
                 <h3 className="text-white text-sm font-body-1 md:text-sm font-bold mb-1">

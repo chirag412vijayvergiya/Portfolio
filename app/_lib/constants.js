@@ -15,7 +15,9 @@ import cpp from "../../public/Tools/cpp.svg";
 import leetcode from "../../public/Tools/leetcode.svg";
 import linkedin from "../../public/Tools/linkedin.svg";
 import gfg from "../../public/Tools/gfg.svg";
-
+import solidity from "../../public/Tools/solidity.svg";
+import android_studio from "../../public/Tools/android_studio.svg";
+import redux_icon from "../../public/Tools/redux_icon.svg";
 export const navLinks = [
   { to: "/", label: "Home" },
   { to: "projects", label: "Projects" },
@@ -156,6 +158,18 @@ export const tools = [
   {
     src: cpp,
     alt: "C++",
+  },
+  {
+    src: solidity,
+    alt: "Solidity",
+  },
+  {
+    src: android_studio,
+    alt: "Android Studio",
+  },
+  {
+    src: redux_icon,
+    alt: "Redux",
   },
 ];
 

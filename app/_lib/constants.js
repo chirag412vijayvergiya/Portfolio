@@ -77,6 +77,26 @@ export const projects = [
     ],
   },
   {
+    title: "Sobus",
+    description:
+      "The Sobus platform streamlines task assignments and activity tracking for its entrepreneurial community. Admins can easily assign tasks, create new activities, and notify members in real time, while members can track and update tasks seamlessly. This user-friendly platform fosters collaboration, helping Sobus stay organized and productive.",
+    githubLink: "https://github.com/chirag412vijayvergiya/sobus",
+    demoLink: "https://sobus.vercel.app/",
+    projectImage: "/sobus.png",
+    skills: [
+      "React",
+      "MongoDB",
+      "Express",
+      "Node.js",
+      "Tailwind CSS",
+      "Passport.js",
+      "Cloudinary",
+      "postman",
+      "Vercel",
+      "Nodemailer",
+    ],
+  },
+  {
     title: "Trip Note",
     description:
       "Trip Note is a web application that enables users to create location-based notes on a map, ideal for capturing travel memories and essential details. With intuitive map interactions, users can click on any spot to store notes, making it easy to revisit and relive their travel experiences. It's designed to enhance personal documentation and provide a seamless way to curate memorable journeys.",

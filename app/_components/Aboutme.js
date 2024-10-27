@@ -5,7 +5,28 @@ import { socialLinks } from "../_lib/constants";
 import Image from "next/image";
 function Aboutme() {
   return (
-    <footer className="flex flex-col mx-auto w-full gap-y-7 py-6">
+    // <footer className="flex flex-col mx-auto w-full gap-y-7 py-6">
+    <footer className="relative flex flex-col mx-auto w-full gap-y-7 py-6 overflow-hidden  text-white">
+      <div
+        className="bubble bubble-small"
+        style={{ top: "20%", left: "15%" }}
+      ></div>
+      <div
+        className="bubble bubble-medium"
+        style={{ top: "50%", left: "30%" }}
+      ></div>
+      <div
+        className="bubble bubble-large"
+        style={{ top: "70%", left: "80%" }}
+      ></div>
+      <div
+        className="bubble bubble-small"
+        style={{ top: "40%", left: "60%" }}
+      ></div>
+      <div
+        className="bubble bubble-medium"
+        style={{ top: "60%", left: "40%" }}
+      ></div>
       <div className="flex flex-col items-center gap-x-24 gap-y-12 md:flex-row md:items-start md:justify-around md:gap-0">
         <div className="flex flex-col items-center gap-y-3 px-4 text-center sm:items-start md:text-start">
           <Logo type="footer" />

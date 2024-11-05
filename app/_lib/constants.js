@@ -77,6 +77,25 @@ export const projects = [
     ],
   },
   {
+    title: "Crowd Coin",
+    description:
+      "Crowd Coin is a decentralized application (DApp) that enables users to create and participate in crowdfunding campaigns. Users can create campaigns, contribute to existing ones, and view the details of each campaign. The platform is built on the Ethereum blockchain, ensuring transparency and security for all transactions.",
+    githubLink: "https://github.com/chirag412vijayvergiya/kickstart",
+    demoLink: "https://crowdcoin-chirag.vercel.app/",
+    projectImage: "/CrowdCoin.png",
+    skills: [
+      "React",
+      "Solidity",
+      "Next.js",
+      "web3.js",
+      "Metamask",
+      "Infura",
+      "Ethereum",
+      "Tailwind CSS",
+      "Vercel",
+    ],
+  },
+  {
     title: "Sobus",
     description:
       "The Sobus platform streamlines task assignments and activity tracking for its entrepreneurial community. Admins can easily assign tasks, create new activities, and notify members in real time, while members can track and update tasks seamlessly. This user-friendly platform fosters collaboration, helping Sobus stay organized and productive.",

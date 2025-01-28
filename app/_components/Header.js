@@ -4,7 +4,7 @@ import Navigation from "./Navigation";
 function Header() {
   return (
     <header
-      className="top-0 sticky  border-b border-primary-900 px-8 py-5 z-[1000]"
+      className="top-0 border-b border-primary-900 px-8 py-5 z-[1000] w-full fixed"
       style={{
         backgroundImage: `
         radial-gradient(40.87% 69.47% at 85.87% 81.98%, rgba(30, 115, 104, 0.09) 0%, rgba(121, 255, 175, 0) 100%),

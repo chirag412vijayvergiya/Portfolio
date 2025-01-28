@@ -2,7 +2,7 @@ import { timelineEvents } from "../_lib/constants";
 
 function Timeline() {
   return (
-    <section className="px-4 md:px-[5rem] pb-6 py-[5rem]">
+    <section className="px-4 md:px-[5rem] pb-6 py-[7rem]">
       <h2 className="text-indigo-400 text-[30px] md:text-3xl font-title-big font-bold mb-8">
         About Me
       </h2>

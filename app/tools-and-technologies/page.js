@@ -3,7 +3,7 @@ import { tools } from "../_lib/constants";
 
 function page() {
   return (
-    <section className=" px-4 md:px-[5rem] pb-6 py-[5rem]">
+    <section className="px-4 md:px-[5rem] pb-6 py-[7rem] ">
       <h2 className="text-indigo-400 text-[30px] md:text-3xl font-bold mb-8">
         Tools and Technologies
       </h2>

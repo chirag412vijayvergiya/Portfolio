@@ -13,8 +13,12 @@
     animation: rotate 1s infinite linear;
   }
 
-  body {
+  /* body {
     background-color: rgb(8, 3, 34);
+  } */
+
+  body {
+    background: rgb(0, 0, 0);
   }
 
   .spinner-mini {
@@ -102,4 +106,42 @@
   );
   animation-duration: 12s;
   animation-delay: calc(-1s * var(--i));
+}
+
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em 3em !important;
+}
+
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: rgb(44, 44, 44);
+    margin-top: 1.5em;
+  }
+}
+
+body::before {
+  --size: 55px;
+  --line: #454343; /* Changed to white for better visibility */
+  content: "";
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  background: linear-gradient(
+        90deg,
+        var(--line) 1px,
+        transparent 1px var(--size)
+      )
+      50% 50% / var(--size) var(--size),
+    linear-gradient(var(--line) 1px, transparent 1px var(--size)) 50% 50% /
+      var(--size) var(--size);
+  -webkit-mask: linear-gradient(-20deg, transparent 50%, rgb(5, 0, 0));
+  mask: linear-gradient(-20deg, transparent 50%, rgb(3, 0, 0));
+  top: 0;
+  transform-style: flat;
+  pointer-events: none;
+  z-index: 1;
 }

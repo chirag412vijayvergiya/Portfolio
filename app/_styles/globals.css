@@ -125,7 +125,7 @@
 
 body::before {
   --size: 55px;
-  --line: #454343; /* Changed to white for better visibility */
+  --line: #242f25; /* Changed to white for better visibility */
   content: "";
   height: 100vh;
   width: 100vw;
@@ -143,5 +143,5 @@ body::before {
   top: 0;
   transform-style: flat;
   pointer-events: none;
-  z-index: 1;
+  z-index: -1;
 }

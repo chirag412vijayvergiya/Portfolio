@@ -22,6 +22,8 @@ export const navLinks = [
   { to: "/", label: "Home" },
   { to: "projects", label: "Projects" },
   { to: "tools-and-technologies", label: "Tools and Technologies" },
+  { to: "experience", label: "Experiences"},
+  { to: "achievements", label: "achievements"},
   { to: "about-me", label: "About Me" },
 ];
 

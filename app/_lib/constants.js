@@ -23,7 +23,7 @@ export const navLinks = [
   { to: "projects", label: "Projects" },
   { to: "tools-and-technologies", label: "Tools and Technologies" },
   { to: "experience", label: "Experiences"},
-  { to: "achievements", label: "achievements"},
+  { to: "achievements", label: "Achievements"},
   { to: "about-me", label: "About Me" },
 ];
 
